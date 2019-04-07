@@ -1,0 +1,25 @@
+{
+  "key": "very-secret-app-key",
+  "name": "Jira Test App",
+  "description": "Jira Test App",
+  "vendor": {
+    "name": "Flambaum Company",
+    "url": "https://www.example.com"
+  },
+  "links": {
+    "self": "https://www.example.com/atlassian-connect.json"
+  },
+  "lifecycle": {
+    "installed": "/installed",
+    "uninstalled": "/uninstalled"
+  },
+  "baseUrl": "https://www.example.com",
+  "authentication": {
+    "type": "jwt"
+  },
+  "scopes": [
+    "READ",
+    "WRITE"
+  ],
+  "modules": {}
+}

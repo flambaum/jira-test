@@ -1,0 +1,8 @@
+{
+	"port": 8000,
+	"SITE_URL": "https://<your-domain>.atlassian.net",
+	"resources": [
+		"/issue/TES-1",
+		"/issue/TES-2"
+	]
+}
